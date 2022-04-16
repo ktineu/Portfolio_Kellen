@@ -1,0 +1,114 @@
+.sobre {
+        
+    padding: 2rem;
+    background:linear-gradient(#FEFEFE, #a5a5a5);
+}
+.sobre__conteudo {
+
+   height: 70vh;
+
+}
+.sobre__conteudo p {
+
+    margin:10px;
+   
+}
+.sobre__titulo {
+
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    color:#8d0606;
+    font-size:2.35rem;
+    font-family: pacifico, cursive;
+    text-align:center;
+    clear: right;
+}
+.sobre__conteudo__imagem {
+
+    float:right;
+    margin: 0 180px 20px 10px;
+        
+}
+.sobre__conteudo__imagem:hover{
+
+    opacity: 0.9;
+    transition: 400ms;
+	box-shadow: 10px 10px 10px 0 #000000; 
+    cursor:pointer;
+}
+.sobre__descricao {
+
+    
+    margin: 70px 0 0 70px;
+    font-size:18px;
+    text-align: justify;
+    width: 40%;
+    box-shadow: inset 4px 4px 50px 10px #595959;
+}
+.sobre__descricao:hover{
+
+    opacity: 0.9;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px 0 #000000;
+    cursor:pointer;
+}
+.sobre__mapa {
+
+    width:940px;
+    margin: 0 auto;
+}
+
+/*para mobile Samsung Galaxy S8+*/
+
+@media screen and (max-width: 360px){
+
+    .banner{
+
+        width: 970px;
+        background-repeat: no-repeat;
+    }
+    .sobre__conteudo, .sobre{
+    
+      
+      width: 960px;
+      
+    }
+    
+    .sobre__mapa{
+
+        width:600px;
+        position:relative;
+        right:170px;
+
+    } 
+    .sobre__descricao {
+
+        
+        margin: 0 0 0 70px;
+        
+    }   
+    .sobre__conteudo__imagem{
+
+        margin-right: 60px;
+    }
+
+    .rodape__conteudo {
+        padding-left: 180px; 
+       
+     }
+     .rodape__autor{
+    
+       width:100%;
+     }
+    .rodape__logo{
+    
+        right:100px;
+        display:absolute;
+    }
+    .rodape__endereco{
+           
+        
+        position:relative;
+        right:100px;
+    }
+}    
