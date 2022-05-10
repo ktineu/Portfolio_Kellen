@@ -16,7 +16,7 @@
 
     padding: var(--padding-titulo);
     color: var(--cor10);
-    font-size:var(--font-titulo);
+    font-size:var(--size-titulo);
     font-family: var(--font-titulo);
     
 }
