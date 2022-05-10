@@ -16,10 +16,10 @@
 .sobre__titulo {
 
     
-    padding: 1rem;
+    padding: var(--padding-titulo);
     color:var(--cor10);
     font-size:2.35rem;
-    font-family: var(--font-family_titulo);
+    font-family: var(--font-titulo);
     text-align:center;
     clear: right;
 }

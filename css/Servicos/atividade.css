@@ -9,7 +9,7 @@
 }
 .atividade__nome {
    
-    font-family: var(--font-family_titulo);
+    font-family: var(--font-titulo);
     font-size:1.60rem;
     color:var(--cor3);
     text-align:center;

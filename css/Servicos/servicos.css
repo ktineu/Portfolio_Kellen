@@ -16,8 +16,8 @@
 
     padding: var(--padding-titulo);
     color: var(--cor10);
-    font-size:var(--font-size_titulo);
-    font-family: var(--font-family_titulo);
+    font-size:var(--font-titulo);
+    font-family: var(--font-titulo);
     
 }
 .servicos {
