@@ -6,7 +6,7 @@
   }
   .fotos__titulos {
   
-    color:var(--vermelho-titulo);
+    color:var(--color-vermelho);
     text-align: center;
     font-size:var(--font-size_titulo);
     font-family: var(--font-family_titulo);
