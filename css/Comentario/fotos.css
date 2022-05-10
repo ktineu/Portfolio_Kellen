@@ -1,11 +1,11 @@
 .foto1 {
 
-    background: var(--color-blue);
+    background: var(--cor7);
     gap: 10px;
     min-width: 100px;
     background-repeat: no-repeat;
     font-family: cursive;
-    color:var(--color-branco);
+    color:var(--cor0);
     font-size:30px;
     height: 170px;
     position:relative;
@@ -25,7 +25,7 @@
     position:relative;
     margin-left:50px;
     height:30px;
-    text-shadow: 5px 10px var(--vermelho-titulo);
+    text-shadow: 5px 10px var(--cor10);
     opacity:0;
     text-align: center;
    

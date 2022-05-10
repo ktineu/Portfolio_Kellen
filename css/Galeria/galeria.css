@@ -1,7 +1,7 @@
 
 .galeria {
 
-    background: var(--color-branco);
+    background: var(--cor0);
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;

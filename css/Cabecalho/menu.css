@@ -12,10 +12,10 @@
 }
 .menu__item a {
 
-    color: var(--color-preto);
+    color: var(--cor11);
     text-decoration: none;
 }
 .menu__item a:hover {
 
-    color:var(--color-royal);
+    color:var(--cor6);
 }

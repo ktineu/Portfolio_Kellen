@@ -44,7 +44,7 @@ select {
     width: 25%;
     padding:1px 0;
     background:rgb(121, 121, 219);
-    color:var(--color-branco);
+    color:var(--cor0);
     font-weight: bold;
     font-size:16px;
     border: none;
@@ -55,18 +55,18 @@ select {
 }
 .enviar:hover {
 
-	background: var(--color-laranja);
+	background: var(--cor9);
 	transform: scale(1.2) ;
 	transform: rotate(2deg);
 	
 }
 td,th {
 
-	border: 1px solid var(--color-preto);
+	border: 1px solid var(--cor11);
 	padding: 8px 15px;
     font-weight: bold;
-    background-color: var(--color-gray);
-    color:var(--color-branco);
+    background-color: var(--cor1);
+    color:var(--cor0);
 }
 .tabela {
 
@@ -79,7 +79,7 @@ caption{
     margin:10px 0 20px 0;
     text-transform: uppercase;
     font-weight: bolder;
-    color:var(--color-cinza);
+    color:var(--cor2);
 }
 
 

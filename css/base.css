@@ -1,22 +1,20 @@
 :root {
 
- --color-branco: #ffffff;
- --color-preto: #000000;
- --color-royal: royalblue;
- --color-blue: darkblue;
- --color-laranja: darkorange;
- --color-gray: darkgray;
- --color-cinza: #808080;
- --color-metal:#595959;
- --color-cinza_rodape:#bebaba;
- --color-ardosia:darkslateblue;
- --color-acinzentado:#bebaba;
- --color-vermelho: #8d0606;
+ --cor0: #ffffff;
+ --cor1: darkgray;
+ --cor2: #808080;
+ --cor3:#595959;
+ --cor4:#bebaba;
+ --cor5:#bebaba;
+ --cor6: royalblue;
+ --cor7: darkblue;
+ --cor8:darkslateblue;
+ --cor9: darkorange;
+ --cor10: #8d0606;
+ --cor11: #000000;
  --font-family_titulo:pacifico , cursive;
  --font-size_titulo:2.35rem;
  --padding-titulo: 1rem;
- 
- 
  
 
 }

@@ -15,7 +15,7 @@
 .servico__titulo {
 
     padding: var(--padding-titulo);
-    color: var(--color-vermelho);
+    color: var(--cor10);
     font-size:var(--font-size_titulo);
     font-family: var(--font-family_titulo);
     

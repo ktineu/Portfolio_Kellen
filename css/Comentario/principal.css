@@ -25,7 +25,7 @@
     
 }
 .principal__titulo{
-    color:var(--color-vermelho);
+    color:var(--cor10);
     text-align: center;
     font-size:1.75rem;
     font-family: var(--font-family_titulo);
@@ -51,7 +51,7 @@
 .principal__conteudo em {
 
     font-style: italic;
-    color:var(--color-vermelho);
+    color:var(--cor10);
 }
 
 

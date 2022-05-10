@@ -6,7 +6,7 @@
   }
   .fotos__titulos {
   
-    color:var(--color-vermelho);
+    color:var(--cor10);
     text-align: center;
     font-size:var(--font-size_titulo);
     font-family: var(--font-family_titulo);
@@ -18,7 +18,7 @@
   }
   .fotos__frase{
 
-    color: var(--color-metal);
+    color: var(--cor3);
     font-family: var(--font-family_titulo);
     font-size: 1.75rem;
     margin: 20px 30px 20px 0px;
