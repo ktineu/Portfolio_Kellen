@@ -18,7 +18,7 @@
 .contato__icone:hover {
 
     -webkit-transform: scale(1.1);
-    cursor:var(--cursor);
+    cursor:pointer;
     border-radius:10px;
 
 }
@@ -48,6 +48,6 @@
 .contato__midia:hover {
 
     -webkit-transform: scale(1.2);
-    cursor:var(--cursor);
+    cursor:pointer;
 
 }

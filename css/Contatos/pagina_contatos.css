@@ -50,7 +50,7 @@ select {
     border: none;
     border-radius:5px;
     transition: 1s all;
-    cursor: var(--cursor);
+    cursor:pointer;
     margin:5px 0 20px 0;
 }
 .enviar:hover {
