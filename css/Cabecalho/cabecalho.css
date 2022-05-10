@@ -1,0 +1,24 @@
+
+.cabecalho {
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center ;
+    background: var(--color-branco);
+    height:100px;
+
+}
+.logo {
+   
+    
+    width:140px;
+    position:relative;
+    padding: 40px;
+    margin-left: 20px;
+  
+}
+
+
+
+
+

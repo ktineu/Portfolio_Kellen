@@ -1,43 +1,3 @@
-
-.logo {
-
-    padding:10px;
-    width:140px;
-    margin-left: 50px;
-
-}
-.cabecalho {
-
-    height:102px;
-}
-.banner__servicos {
-
-    background: url("../img/servicos.jpg");
-    height: 100vh;
-    padding:20px;
-
-}
-.servico {
-
-    text-align:center;
-    padding: 2rem;
-}
-.servico__titulo {
-
-    margin-bottom: 1rem;
-    color:#8d0606;
-    font-size:2.35rem;
-    font-family: pacifico, cursive;
-    
-}
-.servicos {
-
-    padding:20px;
-    display:flex;
-    justify-content: space-around;
-    padding-top: 2rem;
-    
-}
 .atividade {
     
     display:flex;
@@ -49,21 +9,21 @@
 }
 .atividade__nome {
    
-    font-family: pacifico, cursive;
+    font-family: var(--font-family_titulo);
     font-size:1.60rem;
-    color:#595959;
+    color:var(--color-metal);
     text-align:center;
     font-weight:500;
     
 }
 .atividade__imagem {
 
-    background-color: darkslateblue;
+    background-color: var(--color-ardosia);
     height: 260px;
     margin: 20px  15px;
     width: 300px;
     border-radius: 100%;
-    cursor:pointer;
+    cursor:var(--cursor);
      
 }
 .atividade__imagem:hover{
@@ -87,7 +47,7 @@
     
     font-weight:400;
     font-size:20px;
-    color:#595959;
+    color:var(--color-metal);
     margin:10px;
     text-align:justify;
         
@@ -111,23 +71,23 @@
 
 .atividade__imagem2 {
 
-    background-color: darkslateblue;
+    background-color: var(--color-ardosia);
     height: 240px;
     margin: 10px 30px;
     width: 250px;
 }
 .atividade__imagem--cabelos {
 
-   background: url("../img/servico_escova.png");
+   background: url("../../img/servico_escova.png");
  
 }
 .atividade__imagem--manicure {
 
-    background: url("../img/servico_manicure.png");
+    background: url("../../img/servico_manicure.png");
 }
 .atividade__imagem--maquiagem {
 
-    background: url("../img/servico_maquiagem.png");
+    background: url("../../img/servico_maquiagem.png");
 }
 
 /*para mobile Samsung Galaxy S8+*/
@@ -135,40 +95,10 @@
 
 @media screen and (max-width: 360px){
 
-    .banner__servicos{
-
-        width: 960px;
-    }
-    .servico__titulo{
-
-        margin-left: 390px;
-        background-color: aqua;
-    }
     .atividade {
             
         position:relative;
         left:330px;
         
     }
-   
-    .rodape__conteudo {
-        padding-left: 180px; 
-       
-     }
-     .rodape__autor{
-    
-       padding-left:120px;
-     }
-    .rodape__logo{
-    
-        right:100px;
-        display:absolute;
-    }
-    .rodape__endereco{
-    
-           
-        
-        position:relative;
-        right:100px;
-    }
-}    
+}   

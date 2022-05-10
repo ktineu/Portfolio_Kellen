@@ -1,0 +1,99 @@
+.contato__agendamento{
+
+
+    background:linear-gradient(rgb(135, 135, 177),white,rgb(226, 179, 187));
+    padding:20px 0;
+}
+.contato__formulario{
+
+    margin-left: 40px;
+}
+
+form label, form legend {
+    display:block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+#dados{
+
+    padding-top:10px;
+}
+.input-padrao {
+    
+    display:block;
+    margin: 0 0 20px;
+    padding:10px 25px;
+    width:30%;
+}
+
+select {
+    
+    font-weight: bold;
+    display: block;
+    white-space: nowrap;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+    margin:5px 0 10px 0;
+}
+.checkbox {
+
+    margin: 20px 0;
+}
+.enviar {
+
+    width: 25%;
+    padding:1px 0;
+    background:rgb(121, 121, 219);
+    color:var(--color-branco);
+    font-weight: bold;
+    font-size:16px;
+    border: none;
+    border-radius:5px;
+    transition: 1s all;
+    cursor: var(--cursor);
+    margin:5px 0 20px 0;
+}
+.enviar:hover {
+
+	background: var(--color-laranja);
+	transform: scale(1.2) ;
+	transform: rotate(2deg);
+	
+}
+td,th {
+
+	border: 1px solid var(--color-preto);
+	padding: 8px 15px;
+    font-weight: bold;
+    background-color: var(--color-gray);
+    color:var(--color-branco);
+}
+.tabela {
+
+    margin-left: 40px;
+   
+}
+
+caption{
+
+    margin:10px 0 20px 0;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color:var(--color-cinza);
+}
+
+
+
+/*para mobile Samsung Galaxy S8+*/
+
+
+@media screen and (max-width: 360px){
+
+    .contato__agendamento{
+
+     width:1124px;
+
+    }
+    
+    
+}    

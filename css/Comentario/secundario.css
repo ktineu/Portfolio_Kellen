@@ -1,0 +1,11 @@
+.secundario {
+
+    
+    display:grid;
+    grid-template-columns: 1fr;
+ 
+    gap:20px;
+    width:50vw;
+    height: 92vh;
+    margin:40px 100px 0 80px;
+} 
