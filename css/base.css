@@ -1,17 +1,17 @@
 :root {
 
- --cor0: #ffffff;
- --cor1: darkgray;
- --cor2: #808080;
+ --cor0:#ffffff;
+ --cor1:darkgray;
+ --cor2:#808080;
  --cor3:#595959;
  --cor4:#bebaba;
  --cor5:#bebaba;
- --cor6: royalblue;
- --cor7: darkblue;
+ --cor6:royalblue;
+ --cor7:darkblue;
  --cor8:darkslateblue;
- --cor9: darkorange;
- --cor10: #8d0606;
- --cor11: #000000;
+ --cor9:darkorange;
+ --cor10:#8d0606;
+ --cor11:#000000;
  --font-titulo:pacifico , cursive;
  --size-titulo:2.35rem;
  --padding-titulo: 1rem;
