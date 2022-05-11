@@ -41,6 +41,7 @@
     width: 250px;
     height:230px;
     margin-left: 30px;
+    border: 2px dotted blue;
         
 }
 .atividade__descricao {
@@ -50,6 +51,7 @@
     color:var(--cor3);
     margin:10px;
     text-align:justify;
+    
         
 }
 .atividade__descricao--cabelos{

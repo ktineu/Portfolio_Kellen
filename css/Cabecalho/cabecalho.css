@@ -6,6 +6,12 @@
     align-items: center ;
     background: var(--cor0);
     height:100px;
+    position:fixed;
+    left:0;
+    top:0;
+    width:100%;
+    
+       
 
 }
 .logo {

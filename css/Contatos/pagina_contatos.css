@@ -25,6 +25,10 @@ form label, form legend {
     padding:10px 25px;
     width:30%;
 }
+.data {
+
+    margin-bottom: 10px;
+}
 
 select {
     
