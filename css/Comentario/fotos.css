@@ -10,6 +10,7 @@
     height: 170px;
     position:relative;
     cursor:pointer;
+    box-shadow: 10px 10px #777791;
      
 }
 .foto1:hover #ola{
@@ -36,6 +37,7 @@
     background:url("../../img/penteado_noiva.jpg");
     background-repeat: no-repeat;
     height: 170px;
+    box-shadow: 10px 10px #d6b7b7;
     
 }
 .foto2__penteado {
@@ -47,6 +49,7 @@
 
     background: url("../../img/floral_comentarios.png");
     height: 170px;
+    box-shadow: 10px 10px #73a573;
 
 }
 .foto3__paisagem{
