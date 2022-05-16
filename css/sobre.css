@@ -61,19 +61,17 @@
     margin: 0 auto;
 }
 
-/*para mobile Samsung Galaxy S8+*/
-
 @media screen and (max-width: 360px){
 
     .banner{
 
-        width: 970px;
+        width: 1200px;
         background-repeat: no-repeat;
     }
     .sobre__conteudo, .sobre{
     
       
-      width: 960px;
+      width: 1200px;
       
     }
     .sobre__conteudo__imagem{
@@ -94,7 +92,6 @@
         right:170px;
 
     } 
-    
-    
+       
     
 }    

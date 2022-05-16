@@ -30,15 +30,17 @@
 }
 
 
-/*para mobile Samsung Galaxy S8+*/
-
-
 @media screen and (max-width: 360px){
 
     .banner__servicos{
 
-        width: 960px;
+        width: 1200px;
     }
+    .servico {
+
+        width:500px;
+    }
+    
     .servico__titulo{
 
         margin-left: 390px;

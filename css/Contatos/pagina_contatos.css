@@ -87,16 +87,11 @@ caption{
     color:var(--cor2);
 }
 
-
-
-/*para mobile Samsung Galaxy S8+*/
-
-
 @media screen and (max-width: 360px){
 
     .contato__agendamento{
 
-     width:1124px;
+     width:1200px;
 
     }
     
