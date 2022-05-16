@@ -2,187 +2,215 @@
 
 <html lang="pt-br">
 
-    <head>
+<head>
 
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial scale=1.0">
-        <title>Contato</title>
-        <link rel="stylesheet"  href="css/reset.css">
-        <link rel="stylesheet"  href="css/Cabecalho/cabecalho.css">
-        <link rel="stylesheet"  href="css/Cabecalho/menu.css">
-        <link rel="stylesheet"  href="css/conteudo.css">
-        <link rel="stylesheet"  href="css/galeria.css">
-        <link rel="stylesheet"  href="css/servicos.css">
-        <link rel="stylesheet"  href="css/sobre.css">
-        <link rel="stylesheet"  href="./css/Contatos/pagina_contatos.css">
-        <link rel="stylesheet"  href="css/rodape.css">
-        <link rel="stylesheet"  href="./css/base.css">
-        
-             
-        <script language="javascript" src="javascript/funcoes.js"></script>
-        
-    </head>
-
-    <body class="app">
-
-        <header class="cabecalho">
-
-            <img class="logo" src="img/logotipo.png" alt="Logo salão da Kellen">
-
-                <img src="" id="icone" >
-
-                <nav class="menu">
-                    
-                    <ul class="menu__lista">
-                        
-                        <li onmouseover="apareceFoto(1)" onmouseout="apareceFoto(7)" class="menu__item" ><a href="index.html">Home</a></li>
-                        <li onmouseover="apareceFoto(2)" onmouseout="apareceFoto(7)" class="menu__item"><a href="sobre.html">Sobre</a></li>
-                        <li onmouseover="apareceFoto(3)" onmouseout="apareceFoto(7)" class="menu__item"><a href="servicos.html">Serviços</a></li>
-                        <li onmouseover="apareceFoto(4)" onmouseout="apareceFoto(7)" class="menu__item"><a href="galeria.html">Galeria</a></li>
-                        <li onmouseover="apareceFoto(5)" onmouseout="apareceFoto(7)" class="menu__item"><a href="contato.html">Contato</a></li>
-                        <li onmouseover="apareceFoto(6)" onmouseout="apareceFoto(7)" class="menu__item"><a href="comentario.html">Comentário</a></li>
-                    </ul>
-                </nav>
-       
-        </header> 
-
-        <main class="contato">
-
-            <div class="contato__agendamento">
-
-                <form class="contato__formulario">
-
-                    <label id="dados" for="nomeSobrenome">Nome e Sobrenome</label>
-                    <input type="text" id="nomeSobrenome" class="input-padrao" onclick="alert('Digite seu nome completo')" required>
-                    <label for="Email">Email</label>
-                    <input type="email" id="email" class="input-padrao" required  placeholder="seuemail@dominio.com">
-                    <label for="Telefone">Telefone</label>
-                    <input type="tel" id="telefone"  class="input-padrao" required placeholder="(xx) xxxxx-xxxx">
-                                        
-                    <fieldset>
-                        <legend>Como prefere o nosso contato?</legend>
-
-                        <label for="radio-email">
-                        <input type="radio" name="contato" value="email" id="radio-email" required>Email</label>   
-                        <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-email" required>Telefone</label>   
-                        <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" required>whatsapp</label>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/Cabecalho/cabecalho.css">
+    <link rel="stylesheet" href="css/Cabecalho/menu.css">
+    <link rel="stylesheet" href="css/conteudo.css">
+    <link rel="stylesheet" href="css/galeria.css">
+    <link rel="stylesheet" href="css/servicos.css">
+    <link rel="stylesheet" href="css/sobre.css">
+    <link rel="stylesheet" href="./css/Contatos/pagina_contatos.css">
+    <link rel="stylesheet" href="css/rodape.css">
+    <link rel="stylesheet" href="./css/base.css">
 
 
-                    </fieldset>
-                    <fieldset>
+    <script language="javascript" src="javascript/funcoes.js"></script>
 
-                        <legend>Podemos agendar?</legend>
-                        <label for="radio-texto">
+</head>
+
+<body class="app">
+
+    <header class="cabecalho">
+
+        <img class="logo" src="img/logotipo.png" alt="Logo salão da Kellen">
+
+        <img src="" id="icone">
+
+        <nav class="menu">
+
+            <ul class="menu__lista">
+
+                <li onmouseover="apareceFoto(1)" onmouseout="apareceFoto(7)" class="menu__item"><a
+                        href="index.html">Home</a></li>
+                <li onmouseover="apareceFoto(2)" onmouseout="apareceFoto(7)" class="menu__item"><a
+                        href="sobre.html">Sobre</a></li>
+                <li onmouseover="apareceFoto(3)" onmouseout="apareceFoto(7)" class="menu__item"><a
+                        href="servicos.html">Serviços</a></li>
+                <li onmouseover="apareceFoto(4)" onmouseout="apareceFoto(7)" class="menu__item"><a
+                        href="galeria.html">Galeria</a></li>
+                <li onmouseover="apareceFoto(5)" onmouseout="apareceFoto(7)" class="menu__item"><a
+                        href="contato.html">Contato</a></li>
+                <li onmouseover="apareceFoto(6)" onmouseout="apareceFoto(7)" class="menu__item"><a
+                        href="comentario.html">Comentário</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main class="contato">
+
+        <div class="contato__agendamento">
+
+            <form class="contato__formulario">
+
+                <label id="dados" for="nomeSobrenome">Nome e Sobrenome</label>
+                <input type="text" id="nomeSobrenome" class="input-padrao" onclick="alert('Digite seu nome completo')"
+                    required>
+                <label for="Email">Email</label>
+                <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+                <label for="Telefone">Telefone</label>
+                <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx">
+
+                <fieldset>
+                    <legend>Como prefere o nosso contato?</legend>
+
+                    <label for="radio-email">
+                        <input type="radio" name="contato" value="email" id="radio-email" required>Email</label>
+                    <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-email"
+                            required>Telefone</label>
+                    <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp"
+                            required>whatsapp</label>
+
+
+                </fieldset>
+                <fieldset>
+
+                    <legend>Podemos agendar?</legend>
+                    <label for="radio-texto">
                         <input type="radio" name="text" value="texto" id="radio-texto" required>Sim
-                        </label>
-                        <label for="radio-texto">
-                        <input type="radio" name="text" value="texto" id="radio-texto" required>Não    
-                        </label>
+                    </label>
+                    <label for="radio-texto">
+                        <input type="radio" name="text" value="texto" id="radio-texto" required>Não
+                    </label>
 
-                        <legend>Escolha o dia para atendimento </legend>
+                    <legend>Escolha o dia para atendimento </legend>
 
-                        <input type="date" class="data" required>
+                    <input type="date" class="data" required>
 
-                                                        
-                    </fieldset>
-                   
-                    <fieldset>
-                        <legend>Qual período?</legend>
 
-                        <select>
+                </fieldset>
 
-                            <option>Manhã</option>
-                            <option>Tarde</option>
-                            
-                            
-                        </select>
-                                              
-                    </fieldset>
+                <fieldset>
+                    <legend>Qual período?</legend>
 
-                    <fieldset>
+                    <select>
 
-                        <legend>Qual horário?</legend>
+                        <option>Manhã</option>
+                        <option>Tarde</option>
 
-                        <select>
 
-                            <option>09:00</option>
-                            <option>10:00</option>
-                            <option>11:00</option>
-                            <option>13:00</option>
-                            <option>14:00</option>
-                            <option>15:00</option>
-                            <option>16:00</option>
-                            <option>17:00</option>
+                    </select>
 
-                        </select>
-                          
-                    </fieldset>
+                </fieldset>
 
-                    <label for="Mensagem">Mensagem</label>
-                    <textarea cols="70"  rows="10" id="mensagem" class="input-padrao"></textarea>
+                <fieldset>
 
-                    <label class="checkbox"><input type="checkbox" checked required>"Gostaria de receber as nossas novidades por email?"</label>
+                    <legend>Qual horário?</legend>
 
-                    <fieldset>
-        
-                        <legend>Cancelar o serviço?</legend>
-                        <label for="radio-texto">
+                    <select>
+
+                        <option>09:00</option>
+                        <option>10:00</option>
+                        <option>11:00</option>
+                        <option>13:00</option>
+                        <option>14:00</option>
+                        <option>15:00</option>
+                        <option>16:00</option>
+                        <option>17:00</option>
+
+                    </select>
+
+                </fieldset>
+
+                <label for="Mensagem">Mensagem</label>
+                <textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
+
+                <label class="checkbox"><input type="checkbox" checked required>"Gostaria de receber as nossas novidades
+                    por email?"</label>
+
+                <fieldset>
+
+                    <legend>Cancelar o serviço?</legend>
+                    <label for="radio-texto">
                         <input type="radio" name="text" value="texto" id="radio-texto" required>Sim
-                        </label>
-                        <label for="radio-texto">
-                        <input type="radio" name="text" value="texto" id="radio-texto" required>Não    
-                        </label>
+                    </label>
+                    <label for="radio-texto">
+                        <input type="radio" name="text" value="texto" id="radio-texto" required>Não
+                    </label>
 
 
-                    </fieldset>
-                                     
-                    <input type="submit" value="Enviar Formulário" class="enviar">
+                </fieldset>
 
-                </form>
-                <table class="tabela">
+                <input type="submit" value="Enviar Formulário" class="enviar">
 
-                    <caption>Atendimento</caption>
+            </form>
+            <table class="tabela">
 
-                        <tr><td>Dias da Semana</td><td>Horários</td></tr>
-                        <tr><td>Terça-feira</td><td>09:00-18:00</td></tr>
-                        <tr><td>Quarta-feira</td><td>09:00-18:00</td></tr>
-                        <tr><td>Quinta-feira</td><td>09:00-18:00</td></tr>
-                        <tr><td>Sexta-feira</td><td>09:00-18:00</td></tr>
-                        <tr><td>Sábado</td><td>09:00-19:00</td></tr>
+                <caption>Atendimento</caption>
 
-                </table>
-                
-            </div>
+                <tr>
+                    <td>Dias da Semana</td>
+                    <td>Horários</td>
+                </tr>
+                <tr>
+                    <td>Terça-feira</td>
+                    <td>09:00-18:00</td>
+                </tr>
+                <tr>
+                    <td>Quarta-feira</td>
+                    <td>09:00-18:00</td>
+                </tr>
+                <tr>
+                    <td>Quinta-feira</td>
+                    <td>09:00-18:00</td>
+                </tr>
+                <tr>
+                    <td>Sexta-feira</td>
+                    <td>09:00-18:00</td>
+                </tr>
+                <tr>
+                    <td>Sábado</td>
+                    <td>09:00-19:00</td>
+                </tr>
 
-        </main>
+            </table>
 
-        <footer class="rodape">
+        </div>
 
-            <div class="rodape__conteudo">
+    </main>
 
-             <img src="./img/logotipo-rodape.png" alt="Logo salão de beleza da Kellen" class="rodape__logo">
-            
+    <footer class="rodape">
 
-                <address class="rodape__endereco">
+        <div class="rodape__conteudo">
 
-                    <span class="rodape__endereco-titulo">São Paulo</span><br>
-                    Rua  Ipiranga s/n <br>
-                    Centro<br>
-                    telefone (99) 99999-9999<br>
-                
-                </address>
-
-            </div>
-
-            <div class="rodape__autor">
-
-                <span>Desenvolvido por Kellen Tineu Camargo</span>
-                <p class="copyright">Copyright &copy; 2022</p>
+            <img src="./img/logotipo-rodape.png" alt="Logo salão de beleza da Kellen" class="rodape__logo">
 
 
-            </div>
-        </footer>
+            <address class="rodape__endereco">
 
-    </body>    
+                <span class="rodape__endereco-titulo">São Paulo</span><br>
+                Rua Ipiranga s/n <br>
+                Centro<br>
+                telefone (99) 99999-9999<br>
+
+            </address>
+
+        </div>
+
+        <div class="rodape__autor">
+
+            <span>Desenvolvido por Kellen Tineu Camargo</span>
+            <p class="copyright">Copyright &copy; 2022</p>
+
+
+        </div>
+    </footer>
+
+</body>
 
 </html
