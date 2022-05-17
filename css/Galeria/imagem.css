@@ -1,60 +1,68 @@
 .imagem {
 
-    width:25%;
-    margin: 10px;
-    padding-bottom: 17%;
-    -webkit-transition: all .1 ease-in;
-    cursor:pointer;
-    text-align:center;
-  }
-    
-  .imagem:hover{
-  
-    -webkit-transform: scale(1.2);
-  }
-  
-  .imagem:nth-child(1){
-  
-    background: url("../../img/cabelo_vermelho.jpg");
-          
-  }
-  .imagem:nth-child(2){
-  
-    background:url("../../img/cabelo_penteado.jpg");
-         
-  }
-    .imagem:nth-child(3){
-  
-    background:url("../../img/cabelo_loiro.png");
-              
-  }
-  .imagem:nth-child(4){
-  
-    background:url("../../img/cabelo_trança.jpg");
-    
-  }
-  .imagem:nth-child(5){
-  
-    background:url("../../img/maquiagem_olhos.jpg");
-     
-  }
-  .imagem:nth-child(6){
-  
-    background:url("../../img/penteado_noiva.jpg");
-      
-  }
-  .imagem:nth-child(7){
-  
-    background: url("../../img/cabelo_escova.jpg");
-      
-  }
-  .imagem:nth-child(8){
-  
-    background:url("../../img/cabelo_estilo.jpg");
-      
-  }
-  .imagem:nth-child(9){
-  
-    background: url("../../img/manicure_unhas.jpg");
-      
-  }
+  width: 25%;
+  margin: 10px;
+  padding-bottom: 17%;
+  -webkit-transition: all .1 ease-in;
+  cursor: pointer;
+  text-align: center;
+}
+
+.imagem:hover {
+
+  -webkit-transform: scale(1.2);
+}
+
+.imagem:nth-child(1) {
+
+  background: url("../../img/cabelo_vermelho.jpg");
+
+}
+
+.imagem:nth-child(2) {
+
+  background: url("../../img/cabelo_penteado.jpg");
+
+}
+
+.imagem:nth-child(3) {
+
+  background: url("../../img/cabelo_loiro.png");
+
+}
+
+.imagem:nth-child(4) {
+
+  background: url("../../img/cabelo_trança.jpg");
+
+}
+
+.imagem:nth-child(5) {
+
+  background: url("../../img/maquiagem_olhos.jpg");
+
+}
+
+.imagem:nth-child(6) {
+
+  background: url("../../img/penteado_noiva.jpg");
+
+}
+
+.imagem:nth-child(7) {
+
+  background: url("../../img/cabelo_escova.jpg");
+
+}
+
+.imagem:nth-child(8) {
+
+  background: url("../../img/cabelo_estilo.jpg");
+
+}
+
+.imagem:nth-child(9) {
+
+  background: url("../../img/manicure_unhas.jpg");
+
+}

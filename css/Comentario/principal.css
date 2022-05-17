@@ -1,38 +1,38 @@
 .principal {
 
-    background:radial-gradient(white,#868585);
+    background: radial-gradient(white, #868585);
     width: 90vw;
     height: 100vh;
     display: grid;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 20px;
     justify-content: center;
     margin: 0 auto;
-    display:flex;
-    padding:20px;
-    padding-left:20px;
+    display: flex;
+    padding: 20px;
+    padding-left: 20px;
     margin-top: 100px;
-    
-      
- 
+
+
 }
 
 .principal__tema {
 
-    
+
     height: 30px;
-    text-align:center;
-    position:absolute;
-    left:500px;
-    
-}
-.principal__titulo{
-    color:var(--cor10);
     text-align: center;
-    font-size:1.75rem;
+    position: absolute;
+    left: 500px;
+
+}
+
+.principal__titulo {
+    color: var(--cor10);
+    text-align: center;
+    font-size: 1.75rem;
     font-family: var(--font-titulo);
-    
+
 }
 
 .principal__conteudo {
@@ -40,48 +40,53 @@
     background-color: rgb(215, 230, 215);
     width: 100%;
     padding: 40px 80px;
-    margin:40px 0 10px 80px;
+    margin: 40px 0 10px 80px;
 }
-.principal__conteudo p{
+
+.principal__conteudo p {
 
     margin: 0.75em;
-    text-align:justify;
+    text-align: justify;
 }
+
 .principal__conteudo strong {
 
     font-weight: bold;
 }
+
 .principal__conteudo em {
 
     font-style: italic;
-    color:var(--cor10);
+    color: var(--cor10);
 }
 
 
-@media screen and (max-width: 360px){
+@media screen and (max-width: 360px) {
 
-    .principal{
-    
-        width:1200px;
+    .principal {
+
+        width: 1200px;
     }
-   
-    .principal__tema{
-    
-     
-        width:300px;
+
+    .principal__tema {
+
+
+        width: 300px;
         position: absolute;
         left: 280px;
     }
-    .principal__conteudo{
-    
+
+    .principal__conteudo {
+
         padding-left: 20px;
-        font-size:14px;
-           
+        font-size: 14px;
+
     }
+
     .principal__conteudo p {
-    
-        margin-left:70px;
-        margin-top:8px;
-    
+
+        margin-left: 70px;
+        margin-top: 8px;
+
     }
-}    
+}

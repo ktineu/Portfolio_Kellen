@@ -1,74 +1,84 @@
 .atividade {
-    
-    display:flex;
+
+    display: flex;
     flex-direction: column;
     justify-content: stretch;
     margin-top: 10px;
     -webkit-transition: all 1s ease-in;
-    
+
 }
+
 .atividade__nome {
-   
+
     font-family: var(--font-titulo);
-    font-size:1.60rem;
-    color:var(--cor3);
-    text-align:center;
-    font-weight:500;
-    
+    font-size: 1.60rem;
+    color: var(--cor3);
+    text-align: center;
+    font-weight: 500;
+
 }
+
 .atividade__imagem {
 
     background-color: var(--cor8);
     height: 260px;
-    margin: 20px  15px;
+    margin: 20px 5px;
     width: 300px;
     border-radius: 100%;
-    cursor:pointer;
-     
+    cursor: pointer;
+
 }
-.atividade__imagem:hover{
+
+.atividade__imagem:hover {
 
     -webkit-transform: scale(1.1);
 }
+
 .atividade__autor {
 
     padding: 15px;
-   
+
 }
+
 .atividade__conteudo {
 
-    background:linear-gradient(rgb(139, 165, 139),white,rgb(132, 150, 132));
+    background: linear-gradient(rgb(139, 165, 139), white, rgb(132, 150, 132));
     width: 250px;
-    height:230px;
+    height: 230px;
     margin-left: 30px;
     border: 2px dotted blue;
-        
+
 }
+
 .atividade__descricao {
-    
-    font-weight:400;
-    font-size:20px;
-    color:var(--cor3);
-    margin:10px;
-    text-align:justify;
-    
-        
+
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--cor3);
+    margin: 10px;
+    text-align: justify;
+
+
 }
-.atividade__descricao--cabelos{
+
+.atividade__descricao--cabelos {
 
     text-align: center;
 }
+
 .atividade__descricao--manicure {
     margin-top: 80px;
 }
-.atividade__descricao--maquiagem{
 
-    margin-top:60px;
+.atividade__descricao--maquiagem {
+
+    margin-top: 60px;
 
 }
-.atividade__descricao--maquiagem2{
 
-    text-align:center;
+.atividade__descricao--maquiagem2 {
+
+    text-align: center;
 }
 
 .atividade__imagem2 {
@@ -78,27 +88,29 @@
     margin: 10px 30px;
     width: 250px;
 }
+
 .atividade__imagem--cabelos {
 
-   background: url("../../img/servico_escova.png");
- 
+    background: url("../../img/servico_escova.png");
+
 }
+
 .atividade__imagem--manicure {
 
     background: url("../../img/servico_manicure.png");
 }
+
 .atividade__imagem--maquiagem {
 
     background: url("../../img/servico_maquiagem.png");
 }
 
-
-@media screen and (max-width: 360px){
+@media screen and (max-width: 360px) {
 
     .atividade {
-            
-        position:relative;
-        left:330px;
-        
+
+        position: relative;
+        left: 330px;
+
     }
-}   
+}

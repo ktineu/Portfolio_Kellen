@@ -1,24 +1,23 @@
 .video {
 
-    margin:2em auto;
-    margin-left: 360px;
-     
-   }
-   .video__cabelo {
-   
-     width: 500px;
-     height: 300px;
-     
-   }
+  margin: 2em auto;
+  margin-left: 360px;
 
-/*para mobile Samsung Galaxy S8+*/
+}
 
-@media screen and (max-width: 360px){  
+.video__cabelo {
+
+  width: 500px;
+  height: 300px;
+
+}
+
+@media screen and (max-width: 360px) {
 
 
-   .video{
+  .video {
 
-    margin:2em 230px;
+    margin: 2em 230px;
 
   }
-}  
+}

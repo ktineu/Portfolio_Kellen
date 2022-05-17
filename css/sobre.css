@@ -1,97 +1,109 @@
 .sobre {
-        
+
     padding: 2rem;
-    background:linear-gradient(#FEFEFE, #a5a5a5);
+    background: linear-gradient(#FEFEFE, #a5a5a5);
 }
+
 .sobre__conteudo {
 
-   height: 70vh;
+    height: 70vh;
 
 }
+
 .sobre__conteudo p {
 
-    margin:10px;
-   
+    margin: 10px;
+
 }
+
 .sobre__titulo {
 
-    
-    padding: var(--padding-titulo);
-    color:var(--cor10);
-    font-family: var(--font-titulo);
-    text-align:center;
-    clear: right;
-    font-size:var(--size-titulo);
 
-}    
+    padding: var(--padding-titulo);
+    color: var(--cor10);
+    font-family: var(--font-titulo);
+    text-align: center;
+    clear: right;
+    font-size: var(--size-titulo);
+
+}
+
 .sobre__conteudo__imagem {
 
-    float:right;
+    float: right;
     margin: 0 190px 20px 0;
     border-radius: 10%;
-        
-}
-.sobre__conteudo__imagem:hover{
 
-    opacity: 0.9;
-    transition: 400ms;
-	box-shadow: 10px 10px 10px 0 var(--cor11); 
-    cursor:pointer;
 }
-.sobre__descricao {
 
-    
-    margin: 70px 0 0 180px;
-    font-size:18px;
-    text-align: justify;
-    width: 40%;
-    box-shadow: inset 4px 4px 50px 10px var(--cor3);
-    border-radius:10px;
-}
-.sobre__descricao:hover{
+.sobre__conteudo__imagem:hover {
 
     opacity: 0.9;
     transition: 400ms;
     box-shadow: 10px 10px 10px 0 var(--cor11);
-    cursor:pointer;
+    cursor: pointer;
 }
+
+.sobre__descricao {
+
+
+    margin: 70px 0 0 180px;
+    font-size: 18px;
+    text-align: justify;
+    width: 40%;
+    box-shadow: inset 4px 4px 50px 10px var(--cor3);
+    border-radius: 10px;
+}
+
+.sobre__descricao:hover {
+
+    opacity: 0.9;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px 0 var(--cor11);
+    cursor: pointer;
+}
+
 .sobre__mapa {
 
-    width:940px;
+    width: 940px;
     margin: 0 auto;
 }
 
-@media screen and (max-width: 360px){
+@media screen and (max-width: 360px) {
 
-    .banner{
+    .banner {
 
         width: 1200px;
         background-repeat: no-repeat;
     }
-    .sobre__conteudo, .sobre{
-    
-      
-      width: 1200px;
-      
+
+    .sobre__conteudo,
+    .sobre {
+
+
+        width: 1200px;
+
     }
-    .sobre__conteudo__imagem{
+
+    .sobre__conteudo__imagem {
 
         margin-right: 60px;
     }
+
     .sobre__descricao {
 
-        
+
         margin: 0 0 0 70px;
-        
-    }   
-    
-    .sobre__mapa{
 
-        width:600px;
-        position:relative;
-        right:170px;
+    }
 
-    } 
-       
-    
-}    
+    .sobre__mapa {
+
+        width: 600px;
+        position: relative;
+        right: 170px;
+
+    }
+
+
+}

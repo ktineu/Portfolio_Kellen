@@ -1,22 +1,24 @@
 .menu__lista {
 
-    display:flex;
+    display: flex;
     margin-right: 6rem;
-    
-    
+
 }
+
 .menu__item {
 
     margin: 0 0 0 40px;
-   font-size:22px;
-    
+    font-size: 22px;
+
 }
+
 .menu__item a {
 
     color: var(--cor11);
     text-decoration: none;
 }
+
 .menu__item a:hover {
 
-    color:var(--cor6);
+    color: var(--cor6);
 }

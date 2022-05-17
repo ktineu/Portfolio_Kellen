@@ -1,26 +1,24 @@
-
 .galeria {
 
-    background: var(--cor0);
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width:940px;
-    margin:0 0 0 230px ;
-    background:none;
-        
+  background: var(--cor0);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 940px;
+  margin: 0 0 0 230px;
+  background: none;
+
 }
-   
-/*para mobile Samsung Galaxy S8+*/
 
-@media screen and (max-width: 360px){  
 
- 
-  .galeria{
+@media screen and (max-width: 360px) {
+
+
+  .galeria {
 
     position: relative;
     right: 150px;
 
   }
-  
-}    
+
+}

@@ -1,51 +1,54 @@
-
-
 .banner__servicos {
 
     background: url("../../img/servicos.jpg");
     height: 100vh;
-    padding:20px;
+    padding: 20px;
 
 }
+
 .servico {
 
-    text-align:center;
+    text-align: center;
     padding: 2rem;
 }
+
 .servico__titulo {
 
     padding: var(--padding-titulo);
     color: var(--cor10);
-    font-size:var(--size-titulo);
+    font-size: var(--size-titulo);
     font-family: var(--font-titulo);
-    
+    text-align: center;
+
 }
+
 .servicos {
 
-    padding:20px;
-    display:flex;
-    justify-content: space-around;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
     padding-top: 2rem;
-    
+
 }
 
 
-@media screen and (max-width: 360px){
+@media screen and (max-width: 360px) {
 
-    .banner__servicos{
+    .banner__servicos {
 
         width: 1200px;
     }
+
     .servico {
 
-        width:500px;
+        width: 500px;
     }
-    
-    .servico__titulo{
+
+    .servico__titulo {
 
         margin-left: 390px;
-        
+
     }
-    
-    
-}    
+
+
+}
