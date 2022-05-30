@@ -38,6 +38,18 @@
     margin-right: 30px;
 }
 
+.whatsapp {
+
+    position: fixed;
+    top: 82%;
+    right: 1%;
+    padding: 10px;
+    z-index: 10000000;
+    font-size: 80px;
+    cursor: pointer;
+    color: var(--cor12);
+}
+
 @media screen and (max-width: 360px) {
 
 
