@@ -2,7 +2,7 @@
 
     padding: 2rem;
     background: linear-gradient(#FEFEFE, #a5a5a5);
-    margin-top:80px;
+    margin-top:40px;
 }
 
 .sobre__conteudo {
@@ -84,7 +84,12 @@
 
         width: 1200px;
         padding-right: 200px;
+      
 
+    }
+    .sobre__titulo{
+
+        padding-bottom:40px;
     }
 
     .sobre__conteudo__imagem {

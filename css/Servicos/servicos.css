@@ -39,15 +39,17 @@
         width: 1500px;
         background-repeat: no-repeat;
     }
+    
 
     .servico {
 
         width: 500px;
+        margin-left:140px;
     }
 
     .servico__titulo {
 
-        margin-left: 390px;
+        margin-left: 450px;
 
     }
 
