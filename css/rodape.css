@@ -54,10 +54,9 @@
 
 
     .rodape__conteudo {
-        width: 1300px;
+        width: 1400px;
 
-        background: red;
-
+        background: linear-gradient(rgb(182, 218, 182), white, rgb(155, 155, 221));
     }
 
     .rodape__logo {
@@ -68,14 +67,22 @@
 
     .rodape__endereco {
 
-
-        position: relative;
-        left: 20px;
+        width: 1400px;
+        
     }
 
     .rodape__autor {
 
-        width: 1300px;
+        width: 1500px;
+    }
+    .whatsapp{
+
+    margin-right:80px;
+    position:fixed;
+    top: 22%;
+    right: 1%;
+    padding: 20px;
+    z-index: 10000000;
     }
 
 

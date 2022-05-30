@@ -36,7 +36,8 @@
 
     .banner__servicos {
 
-        width: 1200px;
+        width: 1500px;
+        background-repeat: no-repeat;
     }
 
     .servico {
