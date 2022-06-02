@@ -1,7 +1,7 @@
-# [Portfolio_Kellen](https://ktineu.github.io/Portfolio_Kellen/)
+## [Portfolio_Kellen](https://ktineu.github.io/Portfolio_Kellen/)
 
 *Portfólio - desenvolvimento de um site - "serviço."*
 
 ---
 
-*Projeto desenvolvido com base teórica do curso Formação Front-end - Alura.*
+*Projeto desenvolvido com base teórica do curso Formação Front-end - "Alura" e curso em video (youtube) - "Gustavo Guanabara".*
